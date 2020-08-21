@@ -8,6 +8,7 @@ body {
   background-color: #F8EFBA;
   margin: 0;
   padding: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1, h2, h3 {
@@ -41,5 +42,34 @@ h1, h2, h3 {
 .title-wrapper h2 {
   font-size: 36px;
   text-align: right;
+}
+
+/* Buttons */
+.container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: space-evenly;
+      justify-content: space-evenly;
+  margin: 25px;
+}
+
+.btn {
+  height: 50px;
+  width: 300px;
+  border: 2px solid #182C61;
+  border-radius: 10px;
+  background-color: #182C61;
+  color: #F8EFBA;
+  font-size: 16px;
+  margin-right: 25px;
+  transition: 1s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #F8EFBA;
+  color: #2C3A47;
 }
 /*# sourceMappingURL=style.css.map */

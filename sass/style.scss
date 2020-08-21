@@ -16,6 +16,7 @@ body {
 	background-color: $color-background;
 	margin: 0;
 	padding: 0;
+	font-family: $font-text;
 }
 
 h1, h2, h3 {
@@ -49,4 +50,31 @@ h1, h2, h3 {
 .title-wrapper h2 {
 	font-size: 36px;
 	text-align: right;
+}
+
+/* Buttons */
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 25px;
+}
+
+.btn {
+	height: 50px;
+	width: 300px;
+	border: 2px solid $color-main;
+	border-radius: 10px;
+	background-color: $color-main;
+	color: $color-background;
+	font-size: 16px;
+	margin-right: 25px;
+	transition: 1s;
+}
+
+.btn:hover {
+	cursor: pointer;
+	background-color: $color-background;
+	color: $color-text;
 }
