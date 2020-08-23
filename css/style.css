@@ -9,6 +9,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
+  color: #2C3A47;
 }
 
 h1, h2, h3 {
@@ -52,6 +53,7 @@ h1, h2, h3 {
 
 .instruction p {
   text-align: center;
+  margin: 30px;
 }
 
 /* Buttons */
@@ -81,5 +83,11 @@ h1, h2, h3 {
   cursor: pointer;
   background-color: #F8EFBA;
   color: #2C3A47;
+}
+
+/* Messages */
+.msg {
+  text-align: center;
+  margin: 30px;
 }
 /*# sourceMappingURL=style.css.map */
