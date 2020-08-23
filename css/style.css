@@ -44,6 +44,16 @@ h1, h2, h3 {
   text-align: right;
 }
 
+/* Instruction */
+.instruction h2 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.instruction p {
+  text-align: center;
+}
+
 /* Buttons */
 .container {
   display: -ms-flexbox;
