@@ -101,8 +101,8 @@ h1, h2, h3 {
 
 /* Image */
 
-.image {
+.image img {
+	display: block;
 	width: 300px;
 	margin: 50px auto;
-	align-content: center;
 }
