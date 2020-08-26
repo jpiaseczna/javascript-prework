@@ -7,8 +7,6 @@ function buttonClicked(argButtonName) {
   clearMessages();
   console.log(argButtonName + ' został kliknięty');
 
-let argMoveId, argPlayerMove, argComputerMove;
-
 let playerInput;
 
 function getMoveName(argMoveId) {
